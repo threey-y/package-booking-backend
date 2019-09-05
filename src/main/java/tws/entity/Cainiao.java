@@ -1,9 +1,10 @@
 package tws.entity;
 
-import java.io.Serializable;
+public class Cainiao implements Serializable{
 
-public class Employee implements Serializable {
-	 private int yundanhao;
+	
+
+	    private int yundanhao;
 	    private String shoujianren;
 	    private int dianhua;
 	    private String zhongliang;
@@ -33,11 +34,15 @@ public class Employee implements Serializable {
 			this.dianhua = dianhua;
 		}
 
-		public  Employee(int yundanhao,String shoujianren,int dianhua,String zhongliang) {
+		public  Cainiao(int yundanhao,String shoujianren,int dianhua,String zhongliang) {
 			this.yundanhao = yundanhao;
 			this.shoujianren= shoujianren;
 			this.dianhua = dianhua;
 			this.zhongliang = zhongliang;
 		}
-		public Employee() {}
+		public Cainiao() {}
+		
+	
+	
+	
 }

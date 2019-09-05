@@ -6,6 +6,11 @@
     </select>
 
     <insert id="insert" parameterType="tws.entity.Employee">
-       insert into `employee`(`id`,`name`,`age`) values(#{employee.id},#{employee.name},#{employee.age});
+       insert into `employee`(`yundanhao`,`shoujianren`,`dianhua`,`zhongliang`) values(#{employee.yundanhao},#{employee.shoujihao},#{employee.dianhua},#{employee.zhongliang});
     </insert>
+    
+   <!--  <insert id="insert" parameterType="tws.entity.Employee">
+       insert into `employee`(`yundanhao`,`name`,`age`) values(#{employee.id},#{employee.name},#{employee.age});
+    </insert> -->
+   
 </mapper>
